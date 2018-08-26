@@ -8,4 +8,4 @@ def square_array(array)
 end
 
 def collect_square_array(array)
-  array.collect
+  array.collect { |item| item**2}
